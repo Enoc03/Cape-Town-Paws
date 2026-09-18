@@ -1,0 +1,898 @@
+/* =========================================
+   CAPE TOWN PAWS WEBSITE
+   Main External Stylesheet
+   ========================================= */
+
+
+/* CSS Reset
+   Removes default browser spacing
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   BASE STYLES
+   ========================================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+
+/* Makes images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+header {
+    background-color: #ffffff;
+    padding: 1rem 5%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Places logo and navigation next to each other */
+.header-container {
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Logo */
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+
+/* =========================================
+   NAVIGATION
+   ========================================= */
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    gap: 2rem;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    font-size: 1rem;
+
+    transition: 0.3s;
+}
+
+
+/* Navigation hover effect */
+nav a:hover {
+    color: #3c8dbc;
+}
+
+
+/* Keyboard accessibility */
+nav a:focus {
+    outline: 2px solid #3c8dbc;
+    outline-offset: 4px;
+}
+
+
+/* Active click effect */
+nav a:active {
+    color: #246384;
+}
+
+
+/* =========================================
+   HERO SECTION WITH BACKGROUND IMAGE
+   ========================================= */
+
+.hero {
+    min-height: 550px;
+
+    background-image:
+        linear-gradient(
+            rgba(20, 50, 65, 0.55),
+            rgba(20, 50, 65, 0.55)
+        ),
+        url("images/hero-pets.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 4rem 5%;
+}
+
+
+.hero-content {
+    max-width: 800px;
+    color: white;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+
+    color: white;
+
+    margin-bottom: 1.5rem;
+}
+
+
+.hero p {
+    font-size: 1.2rem;
+
+    margin-bottom: 2rem;
+
+    color: white;
+}
+
+/* =========================================
+   BUTTONS
+   ========================================= */
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.button {
+    display: inline-block;
+
+    background-color: #3c8dbc;
+    color: white;
+
+    padding: 0.8rem 1.5rem;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+.button:hover {
+    background-color: #2e7398;
+    transform: translateY(-2px);
+}
+
+
+.button:focus {
+    outline: 3px solid #9fd8f2;
+    outline-offset: 3px;
+}
+
+
+.button:active {
+    transform: translateY(0);
+}
+
+
+.secondary-button {
+    background-color: #ffffff;
+    color: #3c8dbc;
+
+    border: 2px solid #3c8dbc;
+}
+
+
+.secondary-button:hover {
+    background-color: #3c8dbc;
+    color: white;
+}
+
+
+/* =========================================
+   WELCOME SECTION
+   ========================================= */
+
+.welcome {
+    max-width: 900px;
+
+    margin: auto;
+
+    text-align: center;
+
+    padding: 4rem 5%;
+}
+
+
+.welcome h2 {
+    font-size: 2rem;
+    color: #265f7a;
+
+    margin-bottom: 1rem;
+}
+
+
+.welcome p {
+    font-size: 1.1rem;
+}
+
+
+/* =========================================
+   SERVICES SECTION
+   ========================================= */
+
+.services-preview {
+    background-color: #f7f3ee;
+
+    padding: 4rem 5%;
+}
+
+
+.services-preview h2 {
+    text-align: center;
+
+    font-size: 2rem;
+
+    color: #265f7a;
+
+    margin-bottom: 2rem;
+}
+
+
+/* Flexbox layout */
+.service-container {
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.service-card {
+    background-color: white;
+
+    width: 33.33%;
+
+    padding: 2rem;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.service-card h3 {
+    color: #3c8dbc;
+
+    margin-bottom: 1rem;
+}
+
+
+/* =========================================
+   CALL TO ACTION
+   ========================================= */
+
+.call-to-action {
+    background-color: #265f7a;
+    color: white;
+
+    text-align: center;
+
+    padding: 4rem 5%;
+}
+
+
+.call-to-action h2 {
+    font-size: 2rem;
+
+    margin-bottom: 1rem;
+}
+
+
+.call-to-action p {
+    margin-bottom: 1.5rem;
+}
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+footer {
+    background-color: #1e3f50;
+    color: white;
+
+    text-align: center;
+
+    padding: 1.5rem 5%;
+}
+
+
+/* =========================================
+   TABLET RESPONSIVE DESIGN
+   ========================================= */
+
+@media (max-width: 900px) {
+
+    .header-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+
+    nav ul {
+        gap: 1rem;
+    }
+
+
+    .hero h1 {
+        font-size: 2.4rem;
+    }
+
+
+    .service-container {
+        flex-wrap: wrap;
+    }
+
+
+    .service-card {
+        width: 45%;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVE DESIGN
+   ========================================= */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 1rem;
+    }
+
+
+    .logo {
+        width: 100px;
+    }
+
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+
+    .hero {
+        min-height: 400px;
+
+        padding: 3rem 1.5rem;
+    }
+
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .button {
+        width: 100%;
+        max-width: 250px;
+    }
+
+
+    .service-container {
+        flex-direction: column;
+    }
+
+
+    .service-card {
+        width: 100%;
+    }
+
+
+    .welcome,
+    .services-preview,
+    .call-to-action {
+        padding: 3rem 1.5rem;
+    }
+
+}
+/* =========================================
+   INNER PAGE BANNER
+   ========================================= */
+
+.page-banner {
+    background-color: #e7f3f8;
+    text-align: center;
+    padding: 4rem 5%;
+}
+
+.page-banner h1 {
+    font-size: 2.5rem;
+    color: #265f7a;
+    margin-bottom: 1rem;
+}
+
+.page-banner p {
+    font-size: 1.1rem;
+}
+
+
+/* =========================================
+   ABOUT PAGE
+   ========================================= */
+
+.about-section {
+    padding: 4rem 5%;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-content h2 {
+    color: #265f7a;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-content p {
+    margin-bottom: 1rem;
+}
+
+
+/* Mission and Vision */
+
+.mission-section {
+    background-color: #f7f3ee;
+    padding: 4rem 5%;
+}
+
+.mission-container {
+    max-width: 1000px;
+    margin: auto;
+
+    display: flex;
+    gap: 2rem;
+}
+
+.info-card {
+    background-color: white;
+    width: 50%;
+
+    padding: 2rem;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+}
+
+.info-card h2 {
+    color: #3c8dbc;
+    margin-bottom: 1rem;
+}
+
+
+/* Community */
+
+.community-section {
+    max-width: 900px;
+    margin: auto;
+
+    padding: 4rem 5%;
+
+    text-align: center;
+}
+
+.community-section h2 {
+    color: #265f7a;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.community-section p {
+    margin-bottom: 1.5rem;
+}
+
+
+/* Responsive About Page */
+
+@media (max-width: 600px) {
+
+    .page-banner h1 {
+        font-size: 2rem;
+    }
+
+    .mission-container {
+        flex-direction: column;
+    }
+
+    .info-card {
+        width: 100%;
+    }
+
+}
+/* =========================================
+   SERVICES PAGE
+   ========================================= */
+
+.services-page {
+    padding: 4rem 5%;
+    background-color: #ffffff;
+}
+
+.services-grid {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.service-box {
+    background-color: #f7f3ee;
+
+    padding: 2rem;
+
+    border-radius: 10px;
+
+    border: 1px solid #e3e3e3;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.service-box h2 {
+    color: #265f7a;
+    margin-bottom: 1rem;
+}
+
+.service-box p {
+    line-height: 1.7;
+}
+
+
+/* Support Section */
+
+.support-section {
+    background-color: #e7f3f8;
+
+    text-align: center;
+
+    padding: 4rem 5%;
+}
+
+.support-section h2 {
+    color: #265f7a;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.support-section p {
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+}
+
+
+/* Responsive Services Page */
+
+@media (max-width: 700px) {
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+/* =========================================
+   ENQUIRY FORM
+   ========================================= */
+
+.form-section {
+    background-color: #f7f3ee;
+    padding: 4rem 5%;
+}
+
+.form-container {
+    max-width: 700px;
+    margin: auto;
+
+    background-color: #ffffff;
+
+    padding: 2.5rem;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+
+    color: #265f7a;
+
+    margin-bottom: 2rem;
+}
+
+
+/* Each field group */
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+
+/* Labels */
+
+.form-group label {
+    display: block;
+
+    font-weight: bold;
+
+    margin-bottom: 0.5rem;
+
+    color: #333333;
+}
+
+
+/* Inputs */
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+
+    padding: 0.8rem;
+
+    font-size: 1rem;
+
+    border: 1px solid #cccccc;
+
+    border-radius: 6px;
+
+    font-family: inherit;
+}
+
+
+/* Focus effect */
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: 2px solid #3c8dbc;
+
+    border-color: #3c8dbc;
+}
+
+
+/* Prevent textarea from stretching sideways */
+
+.form-group textarea {
+    resize: vertical;
+}
+
+
+/* Submit Button */
+
+.form-button {
+    width: 100%;
+
+    background-color: #3c8dbc;
+
+    color: white;
+
+    border: none;
+
+    padding: 0.9rem;
+
+    font-size: 1rem;
+
+    font-weight: bold;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.form-button:hover {
+    background-color: #2e7398;
+}
+
+
+.form-button:focus {
+    outline: 3px solid #9fd8f2;
+
+    outline-offset: 3px;
+}
+
+
+.form-button:active {
+    transform: scale(0.98);
+}
+
+
+/* Mobile form */
+
+@media (max-width: 600px) {
+
+    .form-section {
+        padding: 2rem 1rem;
+    }
+
+    .form-container {
+        padding: 1.5rem;
+    }
+
+}
+/* =========================================
+   CONTACT PAGE
+   ========================================= */
+
+.contact-section {
+    padding: 4rem 5%;
+    background-color: #f7f3ee;
+}
+
+
+.contact-grid {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+
+/* Contact details */
+
+.contact-info {
+    background-color: #265f7a;
+    color: white;
+
+    padding: 2.5rem;
+
+    border-radius: 10px;
+}
+
+
+.contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.contact-info p {
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+
+.contact-note {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+
+/* Contact form */
+
+.contact-form {
+    background-color: white;
+
+    padding: 2.5rem;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact-form h2 {
+    color: #265f7a;
+
+    margin-bottom: 1.5rem;
+}
+
+
+/* Tablet and mobile */
+
+@media (max-width: 800px) {
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .contact-section {
+        padding: 2rem 1rem;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 1.5rem;
+    }
+
+    .hero {
+    min-height: 450px;
+    background-position: center;
+}
+}
+/* Images inside the Home page service cards */
+
+.service-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    margin-bottom: 1.5rem;
+}
