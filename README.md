@@ -80,25 +80,6 @@ Cape-Town-Paws/
 └── README.md
 
 ```
-## Screenshots of the website 
-23/10/2026
-
-Home Page 
-<img width="490" height="800" alt="image" src="https://github.com/user-attachments/assets/59c15470-8d6c-4ccb-a64e-5d1e3cf59fd1" />
-
-About us page 
-<img width="502" height="802" alt="image" src="https://github.com/user-attachments/assets/26aed6bc-7b46-447b-bc95-6eac847809b0" />
-
-Services page
-<img width="500" height="717" alt="image" src="https://github.com/user-attachments/assets/de712ef0-d411-4047-875a-1b9d067eaf6b" />
-<img width="497" height="805" alt="image" src="https://github.com/user-attachments/assets/69cc084d-80ab-4a2c-9d16-71c5e403e596" />
-
-Enquires page 
-<img width="490" height="737" alt="image" src="https://github.com/user-attachments/assets/bf98ec0c-9699-4cf5-910d-04a3507755e9" />
-<img width="495" height="662" alt="image" src="https://github.com/user-attachments/assets/f1940d50-ea12-4066-b873-ce470fb2fd3e" />
-
-Contacts page 
-<img width="496" height="800" alt="image" src="https://github.com/user-attachments/assets/8aa97289-c49e-41d8-92a3-700e9829c39d" />
 
 
 
