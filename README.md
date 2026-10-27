@@ -78,16 +78,3 @@ Cape-Town-Paws/
 ├── contact.html
 ├── style.css
 └── README.md
-```
-
-## Screenshots of the website 
-Home page 
-![alt text](image-1.png)
-About us
- ![alt text](image-2.png)
-Services
-![alt text](image-3.png)
-Enquiry
-![alt text](image-4.png)
-Contact 
-![alt text](image-5.png)
