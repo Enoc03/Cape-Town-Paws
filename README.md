@@ -40,6 +40,7 @@ The website includes:
 - Visual Studio Code
 - Git
 - GitHub
+- Netlify 
 
 ## Design
 
