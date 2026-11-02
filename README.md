@@ -95,3 +95,23 @@ Cape-Town-Paws/
 Netlify link:
 
 [https://cape-town-paws.netlify.app](https://cape-town-paws.netlify.app)
+ 
+## References
+
+1. Cape of Good Hope SPCA. (n.d.). *Cape of Good Hope SPCA*. Available at: https://capespca.co.za/
+
+2. Cape of Good Hope SPCA. (n.d.). *Adoption Centre*. Available at: https://capespca.co.za/adoption-centre/
+
+3. Animal Anti-Cruelty League. (n.d.). *Animal welfare and animal protection*. Available at: https://www.aacl.co.za/
+
+4. MDN Web Docs. (n.d.). *HTML: HyperText Markup Language*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML
+
+5. MDN Web Docs. (n.d.). *CSS: Cascading Style Sheets*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS 
+
+6. Logo and hero banner image - OpenAI. (2026). *ChatGPT* [Large language model]. https://chatgpt.com/
+
+7. Animal rescue image- https://www.facebook.com/TEARSAnimalRescue/photos/1598463318988407/
+
+8. Rehabilitation- https://www.instagram.com/p/DJ2J_yisCcH/
+
+9. Adoption- https://www.instagram.com/p/DMYi1NlsroF/
