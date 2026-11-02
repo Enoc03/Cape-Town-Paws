@@ -94,7 +94,7 @@ Cape-Town-Paws/
 ## Website Domain
 Netlify link:
 
-[https://cape-town-paws.netlify.app](https://cape-town-paws.netlify.app)
+[https://cape-town-paws.netlify.app]
  
 ## References
 
